@@ -12,7 +12,7 @@
 <style>
     
   body {
-     height: 80%;
+    
   margin: 0;
   padding: 0;
   background: url('./fon.png') no-repeat center center fixed;
@@ -81,7 +81,7 @@
     background: #e0e0e0;
     border-radius: 3px;
     overflow: hidden;
-    margin: 6px 0;
+    margin: 0px 0;
   }
   .progress-bar {
     height: 100%;
@@ -114,7 +114,7 @@
   .sub {
     text-align: center;
     font-size: 14px;
-    color: #444;
+    color: #696969;
     margin: 2px 2px;
   }
   #range {
@@ -145,6 +145,9 @@
     box-sizing: border-box;
     flex-direction: column;
   }
+
+  
+
 </style>
 </head>
 <body>
@@ -160,6 +163,23 @@
       <div>Одеса</div>
       <div>Серія <b>548342060</b></div>
     </div>
+
+    
+  <img src="./tramvay.gif" 
+     alt="Трамвай"
+  style="
+    width: 100%;
+                  /* задаёшь высоту под себя */
+   
+    object-fit: cover;          /* убирает полосы */
+    object-position: center;    /* центрирование */
+    display: block;
+    background: transparent;
+    
+  ">
+  
+
+
     <div class="line-time">
     <div class="progress"><div class="progress-bar" id="progress"></div></div>
     <div class="row">
